@@ -1,0 +1,231 @@
+//variable
+$nav_height:13%;
+$nav_width:88%;
+$footer_hright:5.7%;
+$middle_height:81.3%;
+$left_column:12%;
+$right_column:36%;
+$middle_column:52%;
+
+
+body{
+    background-color: white;
+}
+
+#show{
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    color: white;
+    line-height: 50px;
+    text-align: center;
+}
+
+#show:hover{
+    background-color: red;
+}
+
+#Custom_page{
+    position: absolute;
+    top: -100%;
+    width: 100%;
+    height: 100%;
+
+    .content{
+        position: absolute;
+        left: 50%;
+        top: 7.5%;
+        transform: translateX(-50%);
+        height: 85%;
+        width: auto;
+
+        .burger_name{
+            position: absolute;
+            top: 5.5%;
+            left: 8%;
+            font-family: Microsoft JhengHei;
+            font-size: 2.5rem;
+            height: 9%;
+            color: white;
+
+        }
+
+        .background{
+            height: 100%;
+        }
+
+        .detail{
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 98.5%;
+            height: 97.5%;
+            
+            .set_choose{
+                position: absolute;
+                top: 6.7%;
+                left: 46.5%;
+                height: 6%;
+                
+                #default{
+                    height: 100%;
+                }
+                #history{
+                    position: relative;
+                    left: 1%;
+                    height: 100%;
+                    opacity: 0.6;
+                }
+            }
+            .burger_pic{
+                position: absolute;
+                left: 7%;
+                top: 17%;
+                height: 76.5%;
+                width: 33%;
+    
+                .pic{
+                    width: 100%;
+                }
+                #cheese_pic{
+                    opacity: 1;
+                }
+                #tomato_pic{
+                    opacity: 1;
+                }
+                #cucumber_pic{
+                    opacity: 1;
+                }
+                #meat_pic{
+                    opacity: 1;
+                }
+                #lettuce_pic{
+                    opacity: 1;
+                }
+            }
+    
+            .buger_op{
+                position: absolute;
+                left: 46%;
+                top: 39%;
+                height: 41%;
+                width: auto;
+    
+                .tag{
+                    height: 10.4%;
+                }
+                #cheese_op{
+                    position: absolute;
+                    left: 0;
+                    top: 0;
+                    opacity: 1;
+                }
+                #tomato_op{
+                    position: absolute;
+                    left: 0;
+                    top: 22.4%;
+                    opacity: 1;
+                }
+                #cucumber_op{
+                    position: absolute;
+                    left: 0;
+                    top: 44.8%;
+                    opacity: 1;
+                }
+                #meat_op{
+                    position: absolute;
+                    left: 0;
+                    top: 67.2%;
+                    opacity: 1;
+                }
+                #lettuce_op{
+                    position: absolute;
+                    left: 0;
+                    top: 89.6%;
+                    opacity: 1;
+                }
+            }
+    
+            .sauce_op{
+                position: absolute;
+                left: 69.5%;
+                top: 33.5%;
+                height: 13%;
+                width: 17%;
+    
+                .tag{
+                    height: 37.5%;
+                    width: auto;
+                }
+    
+                #spicy_sauce{
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    opacity: 1;
+                }
+    
+                #wasabi_sauce{
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                    opacity: 0.4;
+                }
+    
+                #peanut_sauce{
+                    position: absolute;
+                    bottom: 0;
+                    left: 0;
+                    opacity: 0.4;
+                }
+    
+                #no_sauce{
+                    position: absolute;
+                    bottom: 0;
+                    right: 0;
+                    opacity: 0.4;
+                }
+            }
+    
+            #cancel{
+                position: absolute;
+                left: 65%;
+                top: 84%;
+                height: 8%;
+            }
+    
+            #add_to_cart{
+                position: absolute;
+                left: 77%;
+                top: 84%;
+                height: 8%;
+            }
+
+            #add{
+                position: absolute;
+                top: 69.5%;
+                left: 88%;
+                height: 3.5%;
+            }
+
+            #minus{
+                position: absolute;
+                top: 69.5%;
+                left: 72%;
+                height: 3.5%;
+            }
+
+            #amount{
+                position: absolute;
+                top: 68.2%;
+                left: 80.5%;
+                font-size: 1.5rem;
+                color: white;
+            }
+
+        }
+
+        
+    }
+}
+
